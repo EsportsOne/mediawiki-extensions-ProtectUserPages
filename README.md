@@ -17,15 +17,15 @@ To install, perform the following steps:
 
 Then add the following to `LocalSettings.php`:
 
-    ```php
-    wfLoadExtension('ProtectUserPages');
-    ```
+```php
+wfLoadExtension('ProtectUserPages');
+```
     
 Or, alternatively , if using MediaWiki earlier than 1.25:
 
-    ```php
-    require_once("$IP/extensions/ProtectUserPages/ProtectUserPages.php");
-    ```
+```php
+require_once("$IP/extensions/ProtectUserPages/ProtectUserPages.php");
+```
     
 Enjoy!
 
